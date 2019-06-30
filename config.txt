@@ -1,0 +1,8 @@
+[mysql]
+mysqlurl=root:950084@tcp(192.168.99.108:3306)/nulige?charset=utf8&parseTime=true&loc=Local
+maxopenconns=10
+maxidleconns=10
+[emqq]
+emqqurl=tcp://192.168.99.111:1883
+emqquser=mysql
+emqqpasswd=mysql
