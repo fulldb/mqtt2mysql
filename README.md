@@ -16,7 +16,7 @@ create table user_info(id int(11) not null AUTO_INCREMENT, username varchar(40),
 
 # 版本
 v1.0
-!(下载地址)[https://github.com/haitianjingyu/mqtt_to_mysql/blob/master/version/emqttv1.0.zip]
+!(下载地址windows64位编译好的文件)[https://github.com/haitianjingyu/mqtt_to_mysql/blob/master/version/emqttv1.0.zip]
 
 # 修改相应配置文件
 
