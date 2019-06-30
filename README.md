@@ -17,3 +17,20 @@ create table user_info(id int(11) not null AUTO_INCREMENT, username varchar(40),
 # 版本
 v1.0
 !(下载地址)[https://github.com/haitianjingyu/mqtt_to_mysql/blob/master/version/emqttv1.0.zip]
+
+# 修改相应配置文件
+
+
+mysql和emqq相应地址，端口，用户名，密码等。
+
+```
+[mysql]
+mysqlurl=root:root@tcp(192.168.99.108:3306)/nulige?charset=utf8&parseTime=true&loc=Local
+maxopenconns=10
+maxidleconns=10
+
+[emqq]
+emqqurl=tcp://192.168.99.111:1883
+emqquser=mysql
+emqqpasswd=mysql
+```
