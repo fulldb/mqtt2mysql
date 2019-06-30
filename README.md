@@ -13,3 +13,7 @@ create database nulige character set utf8;
 ```
 create table user_info(id int(11) not null AUTO_INCREMENT, username varchar(40), departname varchar(100), create_time timestamp , primary key(id));
 ```
+
+# 版本
+v1.0
+!(下载地址)[https://github.com/haitianjingyu/mqtt_to_mysql/blob/master/version/emqttv1.0.zip]
